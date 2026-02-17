@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Jalen Lewis Resume</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+    <header>
+        <h1>Jalen Lewis Resume</h1>
+        <a href="#contact-section">Contact Information</a> 
+    </header>
+    <!-- OBJECTIVE STATEMENT JL 020626 -->
+    <section>
+        <h3>Objectives</h3>
+        <p>AWS Certified IT Support Professional with a focus on cloud architecture and infrastructure efficiency. Experienced in supporting complex robotics/IoT environments and managing enterprise-level hardware/software deployments. Currently pursuing a B.S. in Cloud Computing.</p>
+    </section>
+    <hr>
+    <!-- EXPERIENCE JL 020626 -->
+    <section>
+        <h3>Experience</h3>
+        <p>Related IT work, experience, or contributions in the field of cloud computing and IT support.</p>
+        <ul>
+        <li>IT Support Tech II
+        <ul>
+            <li><strong>Company:</strong> Amazon</li>
+            <li><strong>Duration:</strong> June 2024 - Present</li>
+            <li><strong>Location:</strong> Shreveport, LA</li>
+            <li><strong>Responsibilities:</strong></li>
+                <ul>
+                    <li>Provide technical support for robotics and IoT devices, ensuring optimal performance and uptime.</li>
+                    <li>Manage cloud-based infrastructure to support robotics applications, utilizing AWS services for scalability and reliability.</li>
+                    <li>Collaborate with cross-functional teams to troubleshoot and resolve hardware/software issues in a timely manner.</li>
+                    <li>Implement security best practices to safeguard sensitive data and maintain compliance with industry standards.</li>
+                </ul>
+                </li>
+                </ul>
+            </li>
+        <li>Equipment Coordinator
+            <ul>
+                <li><strong>Company:</strong> Amazon</li>
+                <li><strong>Duration:</strong> June 2022 - June 2024</li>
+                <li><strong>Location:</strong> Monee, IL</li>
+                <li><strong>Responsibilities:</strong></li>
+                    <ul>
+                        <li>Coordinated the distribution and maintenance of technical equipment for robotics and IoT projects.</li>
+                        <li>Assisted in the setup and configuration of hardware components to support cloud-based applications.</li>
+                        <li>Maintained inventory records and ensured the availability of necessary equipment for project teams.</li>
+                    </ul>
+                   </li>
+                    </ul>
+                </li>
+        <li>Surface Penetrant Trainee
+            <ul>
+                <li><strong>Company:</strong> Chicago Magnesium</li>
+                <li><strong>Duration:</strong> June 2021 - June 2022</li>
+                <li><strong>Location:</strong> Blue Island, IL</li>
+                <li><strong>Responsibilities:</strong></li>
+                    <ul>
+                        <li>Conducted surface penetrant testing to identify defects in aerospace components, ensuring compliance with quality standards.</li>
+                        <li>Collaborated with engineering teams to analyze test results and recommend corrective actions.</li>
+                        <li>Maintained detailed records of testing procedures and outcomes for audit purposes.</li>
+                    </ul>
+                    </li>
+                    </ul>
+                </li>
+     </ul>
+    </section>
+    <hr>
+    <!-- EDUCATION JL 020626 -->
+    <section>
+        <h3>Education</h3>
+        <p>Bachelor of Science in Cloud Computing</p>
+        <ul>
+            <li><strong>Institution:</strong> <a href="https://www.wgu.edu" target="_blank">Western Governors University</a></li>
+            <ul>
+            <li><strong>Duration:</strong> June 2024 - Present</li>
+            <li><strong>Relevant Coursework:</strong> Cloud Architecture, Network Security, Data Management, Software Engineering</li>
+        </ul>
+        <li> 
+            <strong>Institution:</strong> University of Illinois at Urbana-Champaign</li>
+            <ul>
+            <li><strong>Duration:</strong> August 2020 - May 2021</li>
+            <li><strong>Relevant Coursework:</strong> Computer Science, Information Technology, Systems Analysis</li>
+        </ul>
+        </li>
+        </ul>
+    </section>
+    <hr>
+    <!-- CERTIFICATIONS JL 020626 -->
+    <section>
+        <h3>Certifications</h3>
+        <ul>
+            <li>AWS Certified Cloud Practitioner (2025)</li>
+            <li>CompTIA A+ Certification (2024)</li>
+            <li>Cisco Certified Network Associate (2022)</li>
+            <li>Linux Essentials Certification (2025)</li>
+            <li>ITIL Foundation Certification (2025)</li>
+        </ul>
+    </section>
+    <hr>
+    <!-- CONTACT INFORMATION JL 020626 -->
+    <section id="contact-section" style="height: 1000px;">
+        <h3>Contact Information</h3>
+        <p><strong>Email:</strong> jaleneelewis@gmail.com</p>
+        <p><strong>LinkedIn:</strong> linkedin.com/in/jalen-lewis1017</p>
+        <sup>&copy;</sup>Jalen Lewis<br>
+        Shreveport, LA &nbsp; 71104<br>
+        708-374-1308
+
+
+</body>
+</html>
