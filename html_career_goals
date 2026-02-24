@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Jalen Lewis - Career Goals</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+    <header>
+        <h1>Jalen Lewis: Career Aspirations</h1>
+        <p>A look into my future in <span>Cloud Computing</span> and IT Infrastructure.</p>
+        <nav>
+            <a href="resume.html">Resume</a> | 
+            <a href="cover-letter.html">Cover Letter</a> |
+        </nav>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <h2 class="sectionHeader">In my future career, I aim to:</h2>
+            <article>
+                <p>
+                    My primary goal is to transition from IT Support into a <strong>Cloud Architect</strong> role. 
+                    I am <em>dedicated</em> to mastering AWS infrastructure and automation. I aspire to design scalable, secure cloud solutions that drive business innovation.
+                </p>
+            </article>
+        </section>
+        <section>
+    <h3 class="sectionHeader">Multimedia</h3>
+    <p>Below are locally hosted files showcasing my project:</p>
+    <figure>
+        <img src="css/career-goals-image.jpg" alt="Cloud Infrastructure Diagram" width="400">
+        <figcaption>
+            <strong>Figure 1:</strong> Cloud Infrastructure Concept. 
+            <em>Source: Adapted from Google Images/TechCloud (2025).</em>
+        </figcaption>
+    </figure>
+    <br>
+    <figure>
+        <label>Speak into existence (Audio):</label><br>
+        <audio controls>
+            <source src="css/career-goal-audio.mp3" type="audio/mpeg">
+        </audio>
+        <figcaption>
+            <em>Source: Audio recorded by J. Lewis (2026).</em>
+        </figcaption>
+    </figure>
+    <br>
+    <figure>
+        <label>Attacker Demo (Video):</label><br>
+        <video width="400" controls>
+            <source src="css/career-goal-video.mp4" type="video/mp4">
+        </video>
+        <figcaption>
+            <strong>Video 1:</strong> Cloud Deployment Demo. 
+            <em>Source: Original content trim for portfolio; Reference material via <a href="https://www.youtube.com/watch?v=H8W9oMNSuwo">YouTube</a>.</em>
+        </figcaption>
+    </figure>
+</section>
+        <hr>
+        <section>
+            <h3 class="sectionHeader">Networking & Inquiries</h3>
+            <p>Interested in collaborating? Please fill out the form below.</p>
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <div class="form-container">
+                    <label for="first-name">First Name:</label><br>
+                    <input type="text" id="first-name" name="first-name" required><br><br>
+                    <label for="last-name">Last Name:</label><br>
+                    <input type="text" id="last-name" name="last-name" required><br><br>
+                    <label for="company-name">Company Name:</label><br>
+                    <input type="text" id="company-name" name="company-name"><br><br>
+                    <label for="email">Email Address:</label><br>
+                    <input type="email" id="email" name="email" required><br><br>
+                    <label for="phone">Phone Number:</label><br>
+                    <input type="tel" id="phone" name="phone"><br><br>
+                    <fieldset>
+                        <legend>Best Contact Time</legend>
+                        <input type="radio" id="am" name="contact-time" value="a.m.">
+                        <label for="am">a.m.</label><br>
+                        <input type="radio" id="pm" name="contact-time" value="p.m.">
+                        <label for="pm">p.m.</label><br>
+                        <input type="radio" id="anytime" name="contact-time" value="anytime">
+                        <label for="anytime">anytime</label>
+                    </fieldset>
+                    <br>
+                    <label for="contact-method">Preferred Contact Method:</label><br>
+                    <select id="contact-method" name="contact-method">
+                        <option value="phone">Phone</option>
+                        <option value="email">Email</option>
+                        <option value="text">Text</option>
+                    </select>
+                    <br><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+                    <input type="reset" value="Reset" name="reset" id="reset-button"> 
+                    <input type="submit" value="Submit Information" name="submit" id="submit-button">
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Jalen Lewis Portfolio &copy; 2026</p>
+    </footer>
+</body>
+</html>
