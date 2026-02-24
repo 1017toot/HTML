@@ -1,0 +1,144 @@
+/* 1. UNIVERSAL SELECTOR */
+* {
+    margin: 20;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+/* ROOT VARIABLES for easier color management */
+:root {
+    --primary-color: rgb(23, 218, 23);
+    --secondary-color: rgb(0, 73, 0);
+    --accent-color: rgb(255, 255, 255);
+}
+
+/* 2. ELEMENT SELECTOR */
+body {
+    /* 3. FONT PROPERTY */
+    font: 16px Arial, sans-serif;
+    /* 4. COLOR PROPERTY */
+    color: rgb(0, 163, 0);
+    /* 5. MARGIN PROPERTY */
+    margin: 20px;
+    /* 6. BACKGROUND-COLOR PROPERTY */
+    background-color: var(--secondary-color);
+}
+
+/* 7. ID SELECTOR and 8. LIST-STYLE PROPERTY */
+#certification-list {
+    list-style-type: square;
+    margin-left: 40px;
+}
+
+/* 9. CLASS SELECTOR and 10. FONT-STYLE PROPERTY */
+.sectionHeader {
+    color: var(--accent-color);
+    font-style: italic;
+    font-variant: small-caps;
+    margin-top: 20px;
+}
+
+.employerName {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+/* 11. DESCENDANT SELECTOR */
+/* Targets any paragraph inside a footer */
+footer p {
+    font-size: 0.8em;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* 12. PSEUDO-CLASS SELECTOR */
+a:hover {
+    text-decoration: underline;
+    color: var(--primary-color);
+}
+
+a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+h1 {
+    color: var(--primary-color);
+    font-style: italic;
+    font-variant: small-caps;
+}
+
+/* 13. BORDER PROPERTY and 14. PADDING PROPERTY */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 14px 0;
+    border: 2px solid var(--primary-color); /* Added border here */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+th {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    font-style: italic;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: var(--accent-color);
+}
+
+/* Form Layout Styles */
+.form-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 20px; 
+    gap: 20px;
+}
+
+.form-column {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.1); /* Subtle contrast */
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: auto;
+}
+
+.form-column label {
+    color: var(--accent-color);
+    font-weight: bold;
+}
+
+.form-column input, .form-column textarea {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+div {
+    margin-bottom: auto;
+    color: var(--accent-color);
+}
+
+/* Responsive Media Query */
+@media (max-width: 768px) {
+    .form-container {
+        flex-direction: column;
+    }
+}
