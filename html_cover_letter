@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Jalen Lewis - Cover Letter</title>
+</head>
+<body>
+    <header>
+        <h1>Jalen Lewis</h1>
+        <p><span>Applicant Cloud Infrastructure Position</span></p>
+        <nav>
+            <a href="resume.html">Resume</a> | 
+            <a href="career-goals.html">Career Goals</a>
+        </nav>
+    </header>
+    <hr> <main>
+        <section>
+            <h2 class="sectionHeader">Cover Letter</h2>
+            <article>
+                <p>To the Hiring Committee,</p>
+                <p>
+                    I am writing to express my <strong>strong</strong> interest in the Cloud Infrastructure position. 
+                    I have spent the last 4 years <em>refining</em> my skills in IT support and cloud technologies, and I am eager to bring my expertise to your team.
+                </p>
+                <p>
+                    My approach to development is centered on creating efficient, scalable infrastructure solutions. 
+                    I believe that <mark>clean, well-documented infrastructure is the foundation of a robust system</mark>, 
+                    and I am eager to bring this philosophy to your engineering team.
+                </p>
+                <p>Thank you for your time and consideration.</p>
+                <p>Sincerely,<br>
+                Jalen Lewis</p>
+            </article>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <p>Jalen Lewis Portfolio &copy; 2026</p>
+    </footer>
+</body>
+</html>
