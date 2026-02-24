@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/master.css">
+    <title>Jalen Lewis Resume</title>
+</head>
+<body style="font-family: Arial, sans-serif; margin: 20px;">
+    <header>
+        <h1>Jalen Lewis Resume</h1>
+        <nav>
+            <a href="cover-letter.html">Cover Letter</a> | 
+            <a href="career-goals.html">Career Goals</a> |
+            <a href="#contact-section">Jump to Contact</a>
+        </nav>
+    </header>
+    <hr> <main>
+        <section>
+            <h2 class="sectionHeader">Professional Objectives</h2>
+            <article>
+                <p>
+                    AWS Certified IT Support Professional with a focus on <strong>cloud architecture</strong> and 
+                    infrastructure efficiency. Currently pursuing a <span>B.S. in Cloud Computing</span>. 
+                    I am <em>highly</em> motivated to streamline enterprise-level hardware deployments.
+                </p>
+            </article>
+        </section>
+        <hr>
+        <section>
+            <h3 class="sectionHeader">Experience</h3>
+            <ul>
+                <li>IT Support Tech II
+                    <ul>
+                        <li class="employerName"><strong>Company:</strong> Amazon</li>
+                        <li><strong>Responsibilities:</strong>
+                            <ul>
+                                <li>Technical support for robotics and IoT devices.</li>
+                                <li>Manage cloud-based infrastructure utilizing AWS.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li>Equipment Coordinator
+                    <ul>
+                        <li class="employerName"><strong>Company:</strong> Amazon</li>
+                        <li><strong>Responsibilities:</strong>
+                            <ul>
+                                <li>Coordinated distribution of technical equipment for robotics projects.</li>
+                                <li>Assisted in hardware setup for cloud-based applications.</li>
+                            </ul>
+                        </li>
+                    </ul>
+            </ul>
+        </section>
+        <hr>
+        <section>
+            <h3 class="sectionHeader">Skill Proficiency Levels</h3>
+            <table border="1" style="width:100%; border-collapse: collapse;">
+                <caption>Technical Competency Matrix</caption>
+                <thead>
+                    <tr>
+                        <th>Technology</th>
+                        <th>Category</th>
+                        <th>Years Experience</th>
+                        <th>Expertise Level</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Cisco</td>
+                        <td>Networking</td>
+                        <td>5 Years</td>
+                        <td>Advanced</td>
+                    </tr>
+                    <tr>
+                        <td>AWS Services</td>
+                        <td>Cloud</td>
+                        <td>3 Years</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Linux</td>
+                        <td>OS</td>
+                        <td>3 Years</td>
+                        <td>Intermediate</td>
+                    </tr>
+                    <tr>
+                        <td>Python</td>
+                        <td>Scripting</td>
+                        <td>2 Year</td>
+                        <td>Beginner</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+            <hr>
+    <!-- EDUCATION JL 020626 -->
+    <section>
+        <h3 class="sectionHeader">Education</h3>
+        <p>Bachelor of Science in Cloud Computing</p>
+        <ul>
+            <li><strong>Institution:</strong> <a href="https://www.wgu.edu" target="_blank">Western Governors University</a></li>
+            <ul>
+            <li><strong>Duration:</strong> June 2024 - Present</li>
+            <li><strong>Relevant Coursework:</strong> Cloud Architecture, Network Security, Data Management, Software Engineering</li>
+        </ul>
+        <li> 
+            <strong>Institution:</strong> University of Illinois at Urbana-Champaign</li>
+            <ul>
+            <li><strong>Duration:</strong> August 2020 - May 2021</li>
+            <li><strong>Relevant Coursework:</strong> Computer Science, Information Technology, Systems Analysis</li>
+        </ul>
+        </li>
+        </ul>
+    </section>
+    <hr>
+    <!-- CERTIFICATIONS JL 020626 -->
+    <section>
+        <h3 class="sectionHeader">Certifications</h3>
+        <ul id="certification-list" style="list-style-type: square;">
+            <li>AWS Certified Cloud Practitioner (2025)</li>
+            <li>CompTIA A+ Certification (2024)</li>
+            <li>Cisco Certified Network Associate (2022)</li>
+            <li>Linux Essentials Certification (2025)</li>
+            <li>ITIL Foundation Certification (2025)</li>
+        </ul>
+    </section>
+    <hr>
+        <section id="contact-section">
+            <h3 class="sectionHeader">Contact Information</h3>
+            <p><strong>Email:</strong> jaleneelewis@gmail.com</p>
+            <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/jalen-lewis1017">linkedin.com/in/jalen-lewis1017</a></p>
+            <div id="date-container"></div>
+            <br>
+            <sup>&copy;</sup>Jalen Lewis<br>
+            Shreveport, LA &nbsp; 71104<br>
+            708-374-1308
+        </section>
+    </main>
+    <footer>
+        <p>Jalen Lewis Portfolio &copy; 2026</p>
+    </footer>
+    <script>
+        const dateDiv = document.getElementById('date-container');
+        const currentDate = new Date();
+        dateDiv.innerHTML = "Current Date: " + currentDate.toDateString();
+        console.log("Resume document loaded successfully.");
+        console.log("Current system date: " + currentDate);
+    </script>
+</body>
+</html>
